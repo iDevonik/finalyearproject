@@ -13,14 +13,24 @@ The reason behind making it a cross platform USB redirector/forwarder system is 
 The computer software will allow technicians to firstly dispense/create tokens for potential jobs. These tokens will act as a form of login for the customers, without this the customer won’t be able to progress on the app. When creating the token on the program, the technician will be asked to enter:
 
 •	Description of the job.
+
 •	Timescale allocated for the job.
+
 •	Time and date of when the job is meant to take place.
+
 When the token has been created, the technician will be able to access it from their jobs page. From there they can either edit, activate/start, or delete jobs. If they decide to start/activate a job. If they start a job, it can either be completed or cancelled if they encounter an issue.
-Mobile side of the system
+
+
+**Mobile side of the system**
+
 The mobile application will have the code input for the token, which they can then enter on their device. This will automatically redirect them to the job sheet page on the app. On this section it will show:
+
 •	A brief description job which is going to be completed.
+
 •	Timescale on how long the job is scheduled to take.
+
 •	The technicians contact details should any issues arise.
+
 •	The date and time when the job is booked to take place, also allowing the customer to add it to their phones calendar application.
 
 When the job is going to the start, the technician can activate the job, which will automatically start the process of connecting the customers OBD device to the technician’s computer system. There will also be instructions displayed for the customer to easily setup the OBD device on their vehicle. Once the job is complete the display will turn green and display a message saying the job is complete.
