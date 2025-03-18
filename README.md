@@ -1,11 +1,15 @@
-USB/IP Mobile & Computer Applications
-Introduction
+**USB/IP Mobile & Computer Applications**
+
+**Introduction**
+
 The final year project I have decided to develop is a USB over IP mobile and computer application. The way this will work is a client/customer will plug in a USB device into their mobile device, and the application can wirelessly transmit it – acting as a gateway so that the host/admin can access the connected device as if it was directly connected to their computer system. How this system will work is a VPN (virtual private network) will be created by the admins system which the client will connect to – this basically will act as a server, forming a way of communication between the two systems. Once that form of communication is established, the hosts system will search the clients connected USB devices and bind the requested device to their system. Once paired, the devices USB COM/port protocol will be forwarded to the host, making it come up on their system as a regular device which is plugged in directly.
 
-Aim of the project & who it is for
+**Aim of the project & who it is for**
 The reason behind making it a cross platform USB redirector/forwarder system is to allow remote diagnostics/coding to be possible for a technician/mechanic at a vehicle customisation/repairs shop. This is because this application would allow OBD (Onboard diagnostics) VCI (Vehicle Communication Interface) devices to be connected to the phone and then the shop can access that device remotely and diagnose on their computer using their proprietary software. This means that the customer won’t need to travel to the shop, saving time and means that they wouldn’t need to purchase a laptop or computer to do the same process, which makes it a much more inexpensive process if the client is only available for remote services. 
-How it will work
+
+**How it will work**
 The computer software will allow technicians to firstly dispense/create tokens for potential jobs. These tokens will act as a form of login for the customers, without this the customer won’t be able to progress on the app. When creating the token on the program, the technician will be asked to enter:
+
 •	Description of the job.
 •	Timescale allocated for the job.
 •	Time and date of when the job is meant to take place.
@@ -16,8 +20,10 @@ The mobile application will have the code input for the token, which they can th
 •	Timescale on how long the job is scheduled to take.
 •	The technicians contact details should any issues arise.
 •	The date and time when the job is booked to take place, also allowing the customer to add it to their phones calendar application.
+
 When the job is going to the start, the technician can activate the job, which will automatically start the process of connecting the customers OBD device to the technician’s computer system. There will also be instructions displayed for the customer to easily setup the OBD device on their vehicle. Once the job is complete the display will turn green and display a message saying the job is complete.
 If the job is under progress, it will show that on the customers screen, else if the job is cancelled/delayed that will also be shown.
+
 Project Objectives
 1.	Research on USB IP, specifically on cross platform issues which may arise due to differentiating communication methods and how to counteract them.
 2.	Explore the development approaches which are suitable to build an application/system like this, such as Android Studio, C#, Java, and which drivers will be required to make the communication possible.
